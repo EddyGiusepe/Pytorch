@@ -9,9 +9,14 @@ def cross_entropy(actual, predicted):
     loss = -np.sum(actual * np.log(predicted))
     return loss # /float(predicted.shape[0])
 
+# y must be one hot encoded
+# if class 0: [1 0 0]
+# if class 1: [0 1 0]
+# if class 2: [0 0 1]
+
 y = np.array([1, 0, 0])
 
-
+# y_pred has probabilities
 y_pred_good = np.array([0.7, 0.2, 0.1])
 y_pred_bad = np.array([0.1, 0.3, 0.6])
 

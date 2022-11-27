@@ -27,6 +27,17 @@ O que faz basicamente é esmagar a saída a ser entre $0$ e $1$.
 
 
 
+## nn.CrossEntropyLoss
+
+Aqui devemos ter cuidado porque a Entropia Cruzada Loss já aplica o Softmax e seguidamente a Probabilidade Logarítmica Negativa Loss. Então não devemos implementar a camada Softmax
+
+![](./cross-Entropy_3.png)
+
+
+![](./cross-Entropy_4.png)
+
+
+![](./cross-Entropy_5.png)
 
 
 
