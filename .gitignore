@@ -132,3 +132,5 @@ dmypy.json
 venv/
 data/
 voxceleb_trainer/
+images/
+modelos/
