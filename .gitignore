@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Eddy
-venv/
+venv_pytorch/
 data/
 voxceleb_trainer/
 images/
