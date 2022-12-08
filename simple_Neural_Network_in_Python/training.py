@@ -17,7 +17,7 @@ training_inputs = np.array([[0,0,1],
                             [1,0,1],
                             [0,1,1]])
 # Adicionanod Shape
-print('O shape é: ', training_inputs.shape)
+print('O shape da matriz é: ', training_inputs.shape)
 
 # output dataset
 training_outputs = np.array([[0,1,1,0]]).T
